@@ -272,8 +272,11 @@ jQuery(window).load(function () {
 
 
     jQuery('.section-title-holder').trigger("sticky_kit:recalc");
-
-    jQuery('.doc-loader').fadeOut(20000);
+    window.setTimeout(function(){
+                 // do whatever you want to do     
+                 jQuery('.doc-loader').fadeOut("slow");
+                  }, 8000);
+    
 });
 
 
