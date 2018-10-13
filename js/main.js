@@ -275,7 +275,7 @@ jQuery(window).load(function () {
     window.setTimeout(function(){
                  // do whatever you want to do     
                  jQuery('.doc-loader').fadeOut("slow");
-                  }, 8000);
+                  }, 6000);
     
 });
 
